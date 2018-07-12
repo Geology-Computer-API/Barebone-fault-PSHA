@@ -1,0 +1,353 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00        2     0.00     0.00  __utils_MOD_deg2km_simple
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_cal_p_locd_arr
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_deg2km_model
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_flt_ini
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_locate_rupture
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_mag_freq_distribution
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_mw2arup
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_rupture_location
+  0.00      0.00     0.00        1     0.00     0.00  __flt_module_MOD_unit_conversion
+  0.00      0.00     0.00        1     0.00     0.00  __gmpe_module_MOD_gmpe_interface
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_aleatory_distribution
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_aspect_ratio
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_b_value
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_depth_distribution
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_depth_param
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_dip
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_dist_bin
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_eps_bin
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_fault_trace
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_frequency
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_gmpe_name
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_gmpe_opts
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_gmpe_params
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_input
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_intensity
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_mag_bin
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_mag_range
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_mag_step
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_rec_relation
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_scaling_model
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_seismogenic_depth
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_site
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_slip_rate
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_sof
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_strike_dip_step
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_trunc_level
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_unit
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_vs30
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_z10
+  0.00      0.00     0.00        1     0.00     0.00  __input_module_MOD_read_z25
+  0.00      0.00     0.00        1     0.00     0.00  __utils_MOD_delaz2_km
+  0.00      0.00     0.00        1     0.00     0.00  __utils_MOD_locate
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       2/2           __flt_module_MOD_deg2km_model [350]
+[348]    0.0    0.00    0.00       2         __utils_MOD_deg2km_simple [348]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[349]    0.0    0.00    0.00       1         __flt_module_MOD_cal_p_locd_arr [349]
+-----------------------------------------------
+                0.00    0.00       1/1           __flt_module_MOD_unit_conversion [356]
+[350]    0.0    0.00    0.00       1         __flt_module_MOD_deg2km_model [350]
+                0.00    0.00       2/2           __utils_MOD_deg2km_simple [348]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[351]    0.0    0.00    0.00       1         __flt_module_MOD_flt_ini [351]
+                0.00    0.00       1/1           __utils_MOD_delaz2_km [388]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[352]    0.0    0.00    0.00       1         __flt_module_MOD_locate_rupture [352]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[353]    0.0    0.00    0.00       1         __flt_module_MOD_mag_freq_distribution [353]
+-----------------------------------------------
+                0.00    0.00       1/1           __flt_module_MOD_rupture_location [355]
+[354]    0.0    0.00    0.00       1         __flt_module_MOD_mw2arup [354]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[355]    0.0    0.00    0.00       1         __flt_module_MOD_rupture_location [355]
+                0.00    0.00       1/1           __flt_module_MOD_mw2arup [354]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[356]    0.0    0.00    0.00       1         __flt_module_MOD_unit_conversion [356]
+                0.00    0.00       1/1           __flt_module_MOD_deg2km_model [350]
+-----------------------------------------------
+                0.00    0.00       1/1           main [192]
+[357]    0.0    0.00    0.00       1         __gmpe_module_MOD_gmpe_interface [357]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[358]    0.0    0.00    0.00       1         __input_module_MOD_read_aleatory_distribution [358]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[359]    0.0    0.00    0.00       1         __input_module_MOD_read_aspect_ratio [359]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[360]    0.0    0.00    0.00       1         __input_module_MOD_read_b_value [360]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[361]    0.0    0.00    0.00       1         __input_module_MOD_read_depth_distribution [361]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[362]    0.0    0.00    0.00       1         __input_module_MOD_read_depth_param [362]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[363]    0.0    0.00    0.00       1         __input_module_MOD_read_dip [363]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[364]    0.0    0.00    0.00       1         __input_module_MOD_read_dist_bin [364]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[365]    0.0    0.00    0.00       1         __input_module_MOD_read_eps_bin [365]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[366]    0.0    0.00    0.00       1         __input_module_MOD_read_fault_trace [366]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[367]    0.0    0.00    0.00       1         __input_module_MOD_read_frequency [367]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[368]    0.0    0.00    0.00       1         __input_module_MOD_read_gmpe_name [368]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[369]    0.0    0.00    0.00       1         __input_module_MOD_read_gmpe_opts [369]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[370]    0.0    0.00    0.00       1         __input_module_MOD_read_gmpe_params [370]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[371]    0.0    0.00    0.00       1         __input_module_MOD_read_input [371]
+                0.00    0.00       1/1           __input_module_MOD_read_site [379]
+                0.00    0.00       1/1           __input_module_MOD_read_frequency [367]
+                0.00    0.00       1/1           __input_module_MOD_read_fault_trace [366]
+                0.00    0.00       1/1           __input_module_MOD_read_rec_relation [376]
+                0.00    0.00       1/1           __input_module_MOD_read_slip_rate [380]
+                0.00    0.00       1/1           __input_module_MOD_read_b_value [360]
+                0.00    0.00       1/1           __input_module_MOD_read_sof [381]
+                0.00    0.00       1/1           __input_module_MOD_read_unit [384]
+                0.00    0.00       1/1           __input_module_MOD_read_aleatory_distribution [358]
+                0.00    0.00       1/1           __input_module_MOD_read_trunc_level [383]
+                0.00    0.00       1/1           __input_module_MOD_read_scaling_model [377]
+                0.00    0.00       1/1           __input_module_MOD_read_dip [363]
+                0.00    0.00       1/1           __input_module_MOD_read_gmpe_name [368]
+                0.00    0.00       1/1           __input_module_MOD_read_vs30 [385]
+                0.00    0.00       1/1           __input_module_MOD_read_seismogenic_depth [378]
+                0.00    0.00       1/1           __input_module_MOD_read_aspect_ratio [359]
+                0.00    0.00       1/1           __input_module_MOD_read_intensity [372]
+                0.00    0.00       1/1           __input_module_MOD_read_mag_bin [373]
+                0.00    0.00       1/1           __input_module_MOD_read_dist_bin [364]
+                0.00    0.00       1/1           __input_module_MOD_read_eps_bin [365]
+                0.00    0.00       1/1           __input_module_MOD_read_mag_step [375]
+                0.00    0.00       1/1           __input_module_MOD_read_mag_range [374]
+                0.00    0.00       1/1           __input_module_MOD_read_strike_dip_step [382]
+                0.00    0.00       1/1           __input_module_MOD_read_depth_distribution [361]
+                0.00    0.00       1/1           __input_module_MOD_read_depth_param [362]
+                0.00    0.00       1/1           __input_module_MOD_read_z10 [386]
+                0.00    0.00       1/1           __input_module_MOD_read_z25 [387]
+                0.00    0.00       1/1           __input_module_MOD_read_gmpe_params [370]
+                0.00    0.00       1/1           __input_module_MOD_read_gmpe_opts [369]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[372]    0.0    0.00    0.00       1         __input_module_MOD_read_intensity [372]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[373]    0.0    0.00    0.00       1         __input_module_MOD_read_mag_bin [373]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[374]    0.0    0.00    0.00       1         __input_module_MOD_read_mag_range [374]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[375]    0.0    0.00    0.00       1         __input_module_MOD_read_mag_step [375]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[376]    0.0    0.00    0.00       1         __input_module_MOD_read_rec_relation [376]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[377]    0.0    0.00    0.00       1         __input_module_MOD_read_scaling_model [377]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[378]    0.0    0.00    0.00       1         __input_module_MOD_read_seismogenic_depth [378]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[379]    0.0    0.00    0.00       1         __input_module_MOD_read_site [379]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[380]    0.0    0.00    0.00       1         __input_module_MOD_read_slip_rate [380]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[381]    0.0    0.00    0.00       1         __input_module_MOD_read_sof [381]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[382]    0.0    0.00    0.00       1         __input_module_MOD_read_strike_dip_step [382]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[383]    0.0    0.00    0.00       1         __input_module_MOD_read_trunc_level [383]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[384]    0.0    0.00    0.00       1         __input_module_MOD_read_unit [384]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[385]    0.0    0.00    0.00       1         __input_module_MOD_read_vs30 [385]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[386]    0.0    0.00    0.00       1         __input_module_MOD_read_z10 [386]
+-----------------------------------------------
+                0.00    0.00       1/1           __input_module_MOD_read_input [371]
+[387]    0.0    0.00    0.00       1         __input_module_MOD_read_z25 [387]
+-----------------------------------------------
+                0.00    0.00       1/1           __flt_module_MOD_flt_ini [351]
+[388]    0.0    0.00    0.00       1         __utils_MOD_delaz2_km [388]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [27]
+[389]    0.0    0.00    0.00       1         __utils_MOD_locate [389]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+ [349] __flt_module_MOD_cal_p_locd_arr [363] __input_module_MOD_read_dip [377] __input_module_MOD_read_scaling_model
+ [350] __flt_module_MOD_deg2km_model [364] __input_module_MOD_read_dist_bin [378] __input_module_MOD_read_seismogenic_depth
+ [351] __flt_module_MOD_flt_ini [365] __input_module_MOD_read_eps_bin [379] __input_module_MOD_read_site
+ [352] __flt_module_MOD_locate_rupture [366] __input_module_MOD_read_fault_trace [380] __input_module_MOD_read_slip_rate
+ [353] __flt_module_MOD_mag_freq_distribution [367] __input_module_MOD_read_frequency [381] __input_module_MOD_read_sof
+ [354] __flt_module_MOD_mw2arup [368] __input_module_MOD_read_gmpe_name [382] __input_module_MOD_read_strike_dip_step
+ [355] __flt_module_MOD_rupture_location [369] __input_module_MOD_read_gmpe_opts [383] __input_module_MOD_read_trunc_level
+ [356] __flt_module_MOD_unit_conversion [370] __input_module_MOD_read_gmpe_params [384] __input_module_MOD_read_unit
+ [357] __gmpe_module_MOD_gmpe_interface [371] __input_module_MOD_read_input [385] __input_module_MOD_read_vs30
+ [358] __input_module_MOD_read_aleatory_distribution [372] __input_module_MOD_read_intensity [386] __input_module_MOD_read_z10
+ [359] __input_module_MOD_read_aspect_ratio [373] __input_module_MOD_read_mag_bin [387] __input_module_MOD_read_z25
+ [360] __input_module_MOD_read_b_value [374] __input_module_MOD_read_mag_range [348] __utils_MOD_deg2km_simple
+ [361] __input_module_MOD_read_depth_distribution [375] __input_module_MOD_read_mag_step [388] __utils_MOD_delaz2_km
+ [362] __input_module_MOD_read_depth_param [376] __input_module_MOD_read_rec_relation [389] __utils_MOD_locate

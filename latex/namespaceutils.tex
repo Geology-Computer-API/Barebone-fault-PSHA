@@ -1,0 +1,282 @@
+\hypertarget{namespaceutils}{}\section{utils Module Reference}
+\label{namespaceutils}\index{utils@{utils}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{namespaceutils_a6c61290deedf912e6810628145911f85}{locate} (ibin, edge, x)
+\item 
+subroutine \hyperlink{namespaceutils_aa0f32919ddbbde1b5238425529660459}{deg2km\+\_\+simple} (vn, ve, alat\+\_\+sta, alon\+\_\+sta,                                           alat\+\_\+ref, alon\+\_\+ref)
+\item 
+subroutine \hyperlink{namespaceutils_aa1dce66e1b3b67f4ff37fa7a949cb7b4}{delaz2\+\_\+km} (y1, x1, y2, x2, delta, az)
+\item 
+elemental real(8) function \hyperlink{namespaceutils_aa41cc7594a2b7ecd3f3931859172f175}{normcdf} (x)
+\item 
+elemental real(8) function \hyperlink{namespaceutils_a568d3767bca697c86b861637a25888f8}{deltacdf} (x)
+\item 
+subroutine \hyperlink{namespaceutils_ac313e8810c0e461aa91b7299c8fba4be}{truncnormcdf} (x, a, b, z)
+\item 
+double precision function \hyperlink{namespaceutils_a64e66c94f05898717cbc1863f70c9be1}{m22det} (A)
+\item 
+double precision function \hyperlink{namespaceutils_a9bad87c0b79a45b5c6e6bbfcb2c6a126}{m33det} (A)
+\item 
+subroutine \hyperlink{namespaceutils_aa037ebfaff3336105e73f563fdab02a8}{pointlinesegdistance} (a, b, x, dist)
+\item 
+subroutine \hyperlink{namespaceutils_aebfee5643eb6828d1b6fd64229189af0}{pointtriangledistance} (T\+R\+I1, T\+R\+I2, T\+R\+I3, P, dist)
+\item 
+real(8) function \hyperlink{namespaceutils_ab5a1a9ca34591c37c7fb606189317e16}{dot3} (x, y)
+\item 
+subroutine \hyperlink{namespaceutils_af6906785e7d185fbdf7034969aababc4}{dist\+\_\+rup\+\_\+seg} (Rrup, Rjb, Rx, coor, Ztor, strike, dip, rup\+\_\+wid)
+\item 
+real(8) function \hyperlink{namespaceutils_aa1727e2ba89368130186d248fd7b71b4}{cal\+\_\+rx} (coor)
+\item 
+subroutine \hyperlink{namespaceutils_a3dfc1e25be8aa02534fda1a437ec9855}{dist\+\_\+rup\+\_\+set} (Rrup, Rjb, Rx, coor, Ztor, strike, dip, rup\+\_\+wid)
+\item 
+subroutine \hyperlink{namespaceutils_ae3d121578601cfdb0b2687656ea19761}{interp\+\_\+coeff} (x1, x2, y1, y2, x, y, iflag)
+\item 
+subroutine \hyperlink{namespaceutils_a47c34e02c3a6ca718ff160f085117f47}{prob\+\_\+exceed} (p\+\_\+exceed, m\+\_\+eps, m\+\_\+aleatory\+\_\+distribution, trunclevel)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\hypertarget{namespaceutils_aa1727e2ba89368130186d248fd7b71b4}{}\index{utils@{utils}!cal\+\_\+rx@{cal\+\_\+rx}}
+\index{cal\+\_\+rx@{cal\+\_\+rx}!utils@{utils}}
+\subsubsection[{cal\+\_\+rx(coor)}]{\setlength{\rightskip}{0pt plus 5cm}real(8) function utils\+::cal\+\_\+rx (
+\begin{DoxyParamCaption}
+\item[{real(8), dimension(2,2), intent(in)}]{coor}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_aa1727e2ba89368130186d248fd7b71b4}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{namespaceutils_aa1727e2ba89368130186d248fd7b71b4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespaceutils_aa0f32919ddbbde1b5238425529660459}{}\index{utils@{utils}!deg2km\+\_\+simple@{deg2km\+\_\+simple}}
+\index{deg2km\+\_\+simple@{deg2km\+\_\+simple}!utils@{utils}}
+\subsubsection[{deg2km\+\_\+simple(vn, ve, alat\+\_\+sta, alon\+\_\+sta,                                           alat\+\_\+ref, alon\+\_\+ref)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::deg2km\+\_\+simple (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{vn, }
+\item[{real(8)}]{ve, }
+\item[{real(8)}]{alat\+\_\+sta, }
+\item[{real(8)}]{alon\+\_\+sta, }
+\item[{real(8)}]{alat\+\_\+ref, }
+\item[{real(8)}]{alon\+\_\+ref}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_aa0f32919ddbbde1b5238425529660459}
+\hypertarget{namespaceutils_aa1dce66e1b3b67f4ff37fa7a949cb7b4}{}\index{utils@{utils}!delaz2\+\_\+km@{delaz2\+\_\+km}}
+\index{delaz2\+\_\+km@{delaz2\+\_\+km}!utils@{utils}}
+\subsubsection[{delaz2\+\_\+km(y1, x1, y2, x2, delta, az)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::delaz2\+\_\+km (
+\begin{DoxyParamCaption}
+\item[{real(8), intent(in)}]{y1, }
+\item[{real(8), intent(in)}]{x1, }
+\item[{real(8), intent(in)}]{y2, }
+\item[{real(8), intent(in)}]{x2, }
+\item[{real(8), intent(out)}]{delta, }
+\item[{real(8), intent(out)}]{az}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_aa1dce66e1b3b67f4ff37fa7a949cb7b4}
+\hypertarget{namespaceutils_a568d3767bca697c86b861637a25888f8}{}\index{utils@{utils}!deltacdf@{deltacdf}}
+\index{deltacdf@{deltacdf}!utils@{utils}}
+\subsubsection[{deltacdf(x)}]{\setlength{\rightskip}{0pt plus 5cm}elemental real(8) function utils\+::deltacdf (
+\begin{DoxyParamCaption}
+\item[{real(8), intent(in)}]{x}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_a568d3767bca697c86b861637a25888f8}
+\hypertarget{namespaceutils_af6906785e7d185fbdf7034969aababc4}{}\index{utils@{utils}!dist\+\_\+rup\+\_\+seg@{dist\+\_\+rup\+\_\+seg}}
+\index{dist\+\_\+rup\+\_\+seg@{dist\+\_\+rup\+\_\+seg}!utils@{utils}}
+\subsubsection[{dist\+\_\+rup\+\_\+seg(\+Rrup, Rjb, Rx, coor, Ztor, strike, dip, rup\+\_\+wid)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::dist\+\_\+rup\+\_\+seg (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{Rrup, }
+\item[{real(8)}]{Rjb, }
+\item[{real(8)}]{Rx, }
+\item[{real(8), dimension(2,2)}]{coor, }
+\item[{real(8)}]{Ztor, }
+\item[{real(8)}]{strike, }
+\item[{real(8)}]{dip, }
+\item[{real(8)}]{rup\+\_\+wid}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_af6906785e7d185fbdf7034969aababc4}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceutils_af6906785e7d185fbdf7034969aababc4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespaceutils_a3dfc1e25be8aa02534fda1a437ec9855}{}\index{utils@{utils}!dist\+\_\+rup\+\_\+set@{dist\+\_\+rup\+\_\+set}}
+\index{dist\+\_\+rup\+\_\+set@{dist\+\_\+rup\+\_\+set}!utils@{utils}}
+\subsubsection[{dist\+\_\+rup\+\_\+set(\+Rrup, Rjb, Rx, coor, Ztor, strike, dip, rup\+\_\+wid)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::dist\+\_\+rup\+\_\+set (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{Rrup, }
+\item[{real(8)}]{Rjb, }
+\item[{real(8)}]{Rx, }
+\item[{real(8), dimension(\+:,\+:), allocatable}]{coor, }
+\item[{real(8)}]{Ztor, }
+\item[{real(8)}]{strike, }
+\item[{real(8)}]{dip, }
+\item[{real(8)}]{rup\+\_\+wid}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_a3dfc1e25be8aa02534fda1a437ec9855}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceutils_a3dfc1e25be8aa02534fda1a437ec9855_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespaceutils_ab5a1a9ca34591c37c7fb606189317e16}{}\index{utils@{utils}!dot3@{dot3}}
+\index{dot3@{dot3}!utils@{utils}}
+\subsubsection[{dot3(x, y)}]{\setlength{\rightskip}{0pt plus 5cm}real(8) function utils\+::dot3 (
+\begin{DoxyParamCaption}
+\item[{real(8), dimension(3)}]{x, }
+\item[{real(8), dimension(3)}]{y}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_ab5a1a9ca34591c37c7fb606189317e16}
+\hypertarget{namespaceutils_ae3d121578601cfdb0b2687656ea19761}{}\index{utils@{utils}!interp\+\_\+coeff@{interp\+\_\+coeff}}
+\index{interp\+\_\+coeff@{interp\+\_\+coeff}!utils@{utils}}
+\subsubsection[{interp\+\_\+coeff(x1, x2, y1, y2, x, y, iflag)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::interp\+\_\+coeff (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{x1, }
+\item[{real(8)}]{x2, }
+\item[{real(8)}]{y1, }
+\item[{real(8)}]{y2, }
+\item[{real(8)}]{x, }
+\item[{real(8)}]{y, }
+\item[{integer}]{iflag}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_ae3d121578601cfdb0b2687656ea19761}
+\hypertarget{namespaceutils_a6c61290deedf912e6810628145911f85}{}\index{utils@{utils}!locate@{locate}}
+\index{locate@{locate}!utils@{utils}}
+\subsubsection[{locate(ibin, edge, x)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::locate (
+\begin{DoxyParamCaption}
+\item[{integer}]{ibin, }
+\item[{real(8), dimension(\+:), allocatable}]{edge, }
+\item[{real(8)}]{x}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_a6c61290deedf912e6810628145911f85}
+\hypertarget{namespaceutils_a64e66c94f05898717cbc1863f70c9be1}{}\index{utils@{utils}!m22det@{m22det}}
+\index{m22det@{m22det}!utils@{utils}}
+\subsubsection[{m22det(\+A)}]{\setlength{\rightskip}{0pt plus 5cm}double precision function utils\+::m22det (
+\begin{DoxyParamCaption}
+\item[{double precision, dimension(2,2), intent(in)}]{A}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_a64e66c94f05898717cbc1863f70c9be1}
+\hypertarget{namespaceutils_a9bad87c0b79a45b5c6e6bbfcb2c6a126}{}\index{utils@{utils}!m33det@{m33det}}
+\index{m33det@{m33det}!utils@{utils}}
+\subsubsection[{m33det(\+A)}]{\setlength{\rightskip}{0pt plus 5cm}double precision function utils\+::m33det (
+\begin{DoxyParamCaption}
+\item[{double precision, dimension(3,3), intent(in)}]{A}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_a9bad87c0b79a45b5c6e6bbfcb2c6a126}
+\hypertarget{namespaceutils_aa41cc7594a2b7ecd3f3931859172f175}{}\index{utils@{utils}!normcdf@{normcdf}}
+\index{normcdf@{normcdf}!utils@{utils}}
+\subsubsection[{normcdf(x)}]{\setlength{\rightskip}{0pt plus 5cm}elemental real(8) function utils\+::normcdf (
+\begin{DoxyParamCaption}
+\item[{real(8), intent(in)}]{x}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_aa41cc7594a2b7ecd3f3931859172f175}
+\hypertarget{namespaceutils_aa037ebfaff3336105e73f563fdab02a8}{}\index{utils@{utils}!pointlinesegdistance@{pointlinesegdistance}}
+\index{pointlinesegdistance@{pointlinesegdistance}!utils@{utils}}
+\subsubsection[{pointlinesegdistance(a, b, x, dist)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::pointlinesegdistance (
+\begin{DoxyParamCaption}
+\item[{real(8), dimension(2)}]{a, }
+\item[{real(8), dimension(2)}]{b, }
+\item[{real(8), dimension(2), intent(in)}]{x, }
+\item[{real(8), intent(out)}]{dist}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_aa037ebfaff3336105e73f563fdab02a8}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{namespaceutils_aa037ebfaff3336105e73f563fdab02a8_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespaceutils_aebfee5643eb6828d1b6fd64229189af0}{}\index{utils@{utils}!pointtriangledistance@{pointtriangledistance}}
+\index{pointtriangledistance@{pointtriangledistance}!utils@{utils}}
+\subsubsection[{pointtriangledistance(\+T\+R\+I1, T\+R\+I2, T\+R\+I3, P, dist)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::pointtriangledistance (
+\begin{DoxyParamCaption}
+\item[{real(8), dimension(3), intent(in)}]{T\+R\+I1, }
+\item[{real(8), dimension(3), intent(in)}]{T\+R\+I2, }
+\item[{real(8), dimension(3), intent(in)}]{T\+R\+I3, }
+\item[{real(8), dimension(3), intent(in)}]{P, }
+\item[{real(8), intent(out)}]{dist}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_aebfee5643eb6828d1b6fd64229189af0}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{namespaceutils_aebfee5643eb6828d1b6fd64229189af0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespaceutils_a47c34e02c3a6ca718ff160f085117f47}{}\index{utils@{utils}!prob\+\_\+exceed@{prob\+\_\+exceed}}
+\index{prob\+\_\+exceed@{prob\+\_\+exceed}!utils@{utils}}
+\subsubsection[{prob\+\_\+exceed(p\+\_\+exceed, m\+\_\+eps, m\+\_\+aleatory\+\_\+distribution, trunclevel)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::prob\+\_\+exceed (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{p\+\_\+exceed, }
+\item[{real(8)}]{m\+\_\+eps, }
+\item[{integer}]{m\+\_\+aleatory\+\_\+distribution, }
+\item[{real(8)}]{trunclevel}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_a47c34e02c3a6ca718ff160f085117f47}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceutils_a47c34e02c3a6ca718ff160f085117f47_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespaceutils_ac313e8810c0e461aa91b7299c8fba4be}{}\index{utils@{utils}!truncnormcdf@{truncnormcdf}}
+\index{truncnormcdf@{truncnormcdf}!utils@{utils}}
+\subsubsection[{truncnormcdf(x, a, b, z)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine utils\+::truncnormcdf (
+\begin{DoxyParamCaption}
+\item[{real(8), intent(in)}]{x, }
+\item[{real(8), intent(in)}]{a, }
+\item[{real(8), intent(in)}]{b, }
+\item[{real(8), intent(out)}]{z}
+\end{DoxyParamCaption}
+)}\label{namespaceutils_ac313e8810c0e461aa91b7299c8fba4be}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{namespaceutils_ac313e8810c0e461aa91b7299c8fba4be_cgraph}
+\end{center}
+\end{figure}
+
+

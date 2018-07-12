@@ -1,0 +1,158 @@
+[Site]
+
+SITE (y, x for unit = km, lat, lon for unit = deg)
+-0.45686 -64.77466
+
+VS30
+760
+
+Z10 (put 999 for unknown)
+0.048
+
+Z25 (put 999 for unknown)
+999
+
+[Fault]
+
+FAULT_TRACE (y, x for unit = km, lat, lon for unit = deg)
+-0.45236 -64.78365
+-0.45236 -64.80164
+-0.36564 -64.90498
+-0.16188 -65
+0 -65
+end
+
+SCALING_MODEL (WC94, PEER, CEUS or ZERO)
+PEER
+
+SOF (RV, SS, NM, or NA)
+RV
+
+DIP (in deg)
+60
+
+SEISMOGENIC_DEPTH
+0.0 12.0
+
+
+ASPECT_RATIO (length / width)
+2.0
+
+STRIKE_DIP_STEP (in km)
+0.1 0.1
+
+DEPTH_DISTRIBUTION
+UNIFORM
+
+DEPTH_PARAM
+0.333
+
+[Recurrence]
+
+REC_RELATION (EXP, CHAR or DELTA)
+DELTA
+
+SLIP_RATE (mm/yr)
+2
+
+B_VALUE
+0.9
+
+MAG_STEP
+0.02
+
+MAG_RANGE
+5.0 6.75
+
+[GMPE]
+
+GMPE_NAME
+CY14
+
+
+GMPE_PARAMS (these are gmpe_name dependent)
+end
+
+
+GMPE_OPTS (these are gmpe_name dependent)
+1 /fHW
+1 /FVS30
+1 /region
+end
+
+
+ALEATORY_DISTRIBUTION (NORMAL, TRUNC_NORMAL, or HEAVISIDE)
+NORMAL
+
+TRUNC_LEVEL (this is only used for TRUNC_NORMAL
+2.0
+
+[Control]
+
+UNIT
+DEG
+
+FREQUENCY
+1
+100
+end
+
+INTENSITY
+0.001
+0.01
+0.05
+0.1
+0.15
+0.2
+0.25
+0.3
+0.35
+0.4
+0.45
+0.5
+0.55
+0.6
+0.7
+0.8
+0.9
+1.0
+end
+
+MAG_BIN (lower edge of the bins)
+5.0
+5.1
+5.5
+6.25
+6.5
+7.0
+7.5
+8.0
+end
+
+DIST_BIN (lower edge of the bins)
+0
+2
+5
+8
+12
+20
+50
+100
+end
+
+EPS_BIN
+-200
+end
+
+
+
+
+
+
+
+
+
+
+
+
+

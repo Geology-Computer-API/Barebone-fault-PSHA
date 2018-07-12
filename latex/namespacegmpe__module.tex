@@ -1,0 +1,138 @@
+\hypertarget{namespacegmpe__module}{}\section{gmpe\+\_\+module Module Reference}
+\label{namespacegmpe__module}\index{gmpe\+\_\+module@{gmpe\+\_\+module}}
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \hyperlink{namespacegmpe__module_a5f684874da41cb0160ab7c0473b1adf5}{gmpe\+\_\+interface} (m\+\_\+gmpe\+\_\+name, Tin, Mw, m\+\_\+sof, Rrup, Rjb, Rx, Ztor, dip,                                           Vs30, Z10, gmpe\+\_\+params, gmpe\+\_\+opts,                                           ln\+Sa, Sigma)
+\item 
+subroutine \hyperlink{namespacegmpe__module_a3a1c1fc463d12762d4dcc724f90f876d}{gmpe\+\_\+sadigh97} (ln\+Sa, Sigma, M, Rrup, Tin, m\+\_\+\+S\+O\+F)
+\item 
+subroutine \hyperlink{namespacegmpe__module_a908fe9e90b79ba090e108746e35b4b02}{gmpe\+\_\+cy14} (M, T, Rrup, Rjb, Rx, Ztor, dip, m\+\_\+\+S\+O\+F, Z10, Vs30, gmpe\+\_\+params, gmpe\+\_\+opts, ln\+Sa, sigma)
+\item 
+subroutine \hyperlink{namespacegmpe__module_a2b7ab2b80fab7e94cfd35a2e5652bc5a}{cy\+\_\+2014\+\_\+sub} (M, ip, R\+\_\+\+R\+U\+P, R\+\_\+\+J\+B, Rx, Ztor, delta, F\+\_\+\+R\+V, F\+\_\+\+N\+M, H\+W, Z10, Vs30, F\+V\+S30, region, d\+\_\+\+D\+P\+P, ln\+Sa, sigma)
+\item 
+subroutine \hyperlink{namespacegmpe__module_aaef04e7344731f519aba25dbde1bfbc8}{per\+\_\+indx\+\_\+cy14} (per, per\+\_\+indx)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\hypertarget{namespacegmpe__module_a2b7ab2b80fab7e94cfd35a2e5652bc5a}{}\index{gmpe\+\_\+module@{gmpe\+\_\+module}!cy\+\_\+2014\+\_\+sub@{cy\+\_\+2014\+\_\+sub}}
+\index{cy\+\_\+2014\+\_\+sub@{cy\+\_\+2014\+\_\+sub}!gmpe\+\_\+module@{gmpe\+\_\+module}}
+\subsubsection[{cy\+\_\+2014\+\_\+sub(\+M, ip, R\+\_\+\+R\+U\+P, R\+\_\+\+J\+B, Rx, Ztor, delta, F\+\_\+\+R\+V, F\+\_\+\+N\+M, H\+W, Z10, Vs30, F\+V\+S30, region, d\+\_\+\+D\+P\+P, ln\+Sa, sigma)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine gmpe\+\_\+module\+::cy\+\_\+2014\+\_\+sub (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{M, }
+\item[{integer}]{ip, }
+\item[{real(8)}]{R\+\_\+\+R\+U\+P, }
+\item[{real(8)}]{R\+\_\+\+J\+B, }
+\item[{real(8)}]{Rx, }
+\item[{real(8)}]{Ztor, }
+\item[{real(8)}]{delta, }
+\item[{integer}]{F\+\_\+\+R\+V, }
+\item[{integer}]{F\+\_\+\+N\+M, }
+\item[{real(8)}]{H\+W, }
+\item[{real(8)}]{Z10, }
+\item[{real(8)}]{Vs30, }
+\item[{integer}]{F\+V\+S30, }
+\item[{integer}]{region, }
+\item[{real(8)}]{d\+\_\+\+D\+P\+P, }
+\item[{real(8)}]{ln\+Sa, }
+\item[{real(8)}]{sigma}
+\end{DoxyParamCaption}
+)}\label{namespacegmpe__module_a2b7ab2b80fab7e94cfd35a2e5652bc5a}
+\hypertarget{namespacegmpe__module_a908fe9e90b79ba090e108746e35b4b02}{}\index{gmpe\+\_\+module@{gmpe\+\_\+module}!gmpe\+\_\+cy14@{gmpe\+\_\+cy14}}
+\index{gmpe\+\_\+cy14@{gmpe\+\_\+cy14}!gmpe\+\_\+module@{gmpe\+\_\+module}}
+\subsubsection[{gmpe\+\_\+cy14(\+M, T, Rrup, Rjb, Rx, Ztor, dip, m\+\_\+\+S\+O\+F, Z10, Vs30, gmpe\+\_\+params, gmpe\+\_\+opts, ln\+Sa, sigma)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine gmpe\+\_\+module\+::gmpe\+\_\+cy14 (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{M, }
+\item[{real(8)}]{T, }
+\item[{real(8)}]{Rrup, }
+\item[{real(8)}]{Rjb, }
+\item[{real(8)}]{Rx, }
+\item[{real(8)}]{Ztor, }
+\item[{real(8)}]{dip, }
+\item[{integer}]{m\+\_\+\+S\+O\+F, }
+\item[{real(8)}]{Z10, }
+\item[{real(8)}]{Vs30, }
+\item[{real(8), dimension(\+:)}]{gmpe\+\_\+params, }
+\item[{integer, dimension(\+:)}]{gmpe\+\_\+opts, }
+\item[{real(8)}]{ln\+Sa, }
+\item[{real(8)}]{sigma}
+\end{DoxyParamCaption}
+)}\label{namespacegmpe__module_a908fe9e90b79ba090e108746e35b4b02}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegmpe__module_a908fe9e90b79ba090e108746e35b4b02_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacegmpe__module_a5f684874da41cb0160ab7c0473b1adf5}{}\index{gmpe\+\_\+module@{gmpe\+\_\+module}!gmpe\+\_\+interface@{gmpe\+\_\+interface}}
+\index{gmpe\+\_\+interface@{gmpe\+\_\+interface}!gmpe\+\_\+module@{gmpe\+\_\+module}}
+\subsubsection[{gmpe\+\_\+interface(m\+\_\+gmpe\+\_\+name, Tin, Mw, m\+\_\+sof, Rrup, Rjb, Rx, Ztor, dip,                                           Vs30, Z10, gmpe\+\_\+params, gmpe\+\_\+opts,                                           ln\+Sa, Sigma)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine gmpe\+\_\+module\+::gmpe\+\_\+interface (
+\begin{DoxyParamCaption}
+\item[{integer}]{m\+\_\+gmpe\+\_\+name, }
+\item[{real(8)}]{Tin, }
+\item[{real(8)}]{Mw, }
+\item[{integer}]{m\+\_\+sof, }
+\item[{real(8)}]{Rrup, }
+\item[{real(8)}]{Rjb, }
+\item[{real(8)}]{Rx, }
+\item[{real(8)}]{Ztor, }
+\item[{real(8)}]{dip, }
+\item[{real(8)}]{Vs30, }
+\item[{real(8)}]{Z10, }
+\item[{real(8), dimension(\+:), allocatable}]{gmpe\+\_\+params, }
+\item[{integer, dimension(\+:), allocatable}]{gmpe\+\_\+opts, }
+\item[{real(8)}]{ln\+Sa, }
+\item[{real(8)}]{Sigma}
+\end{DoxyParamCaption}
+)}\label{namespacegmpe__module_a5f684874da41cb0160ab7c0473b1adf5}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegmpe__module_a5f684874da41cb0160ab7c0473b1adf5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacegmpe__module_a3a1c1fc463d12762d4dcc724f90f876d}{}\index{gmpe\+\_\+module@{gmpe\+\_\+module}!gmpe\+\_\+sadigh97@{gmpe\+\_\+sadigh97}}
+\index{gmpe\+\_\+sadigh97@{gmpe\+\_\+sadigh97}!gmpe\+\_\+module@{gmpe\+\_\+module}}
+\subsubsection[{gmpe\+\_\+sadigh97(ln\+Sa, Sigma, M, Rrup, Tin, m\+\_\+\+S\+O\+F)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine gmpe\+\_\+module\+::gmpe\+\_\+sadigh97 (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{ln\+Sa, }
+\item[{real(8)}]{Sigma, }
+\item[{real(8)}]{M, }
+\item[{real(8)}]{Rrup, }
+\item[{real(8)}]{Tin, }
+\item[{integer}]{m\+\_\+\+S\+O\+F}
+\end{DoxyParamCaption}
+)}\label{namespacegmpe__module_a3a1c1fc463d12762d4dcc724f90f876d}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacegmpe__module_a3a1c1fc463d12762d4dcc724f90f876d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacegmpe__module_aaef04e7344731f519aba25dbde1bfbc8}{}\index{gmpe\+\_\+module@{gmpe\+\_\+module}!per\+\_\+indx\+\_\+cy14@{per\+\_\+indx\+\_\+cy14}}
+\index{per\+\_\+indx\+\_\+cy14@{per\+\_\+indx\+\_\+cy14}!gmpe\+\_\+module@{gmpe\+\_\+module}}
+\subsubsection[{per\+\_\+indx\+\_\+cy14(per, per\+\_\+indx)}]{\setlength{\rightskip}{0pt plus 5cm}subroutine gmpe\+\_\+module\+::per\+\_\+indx\+\_\+cy14 (
+\begin{DoxyParamCaption}
+\item[{real(8)}]{per, }
+\item[{integer}]{per\+\_\+indx}
+\end{DoxyParamCaption}
+)}\label{namespacegmpe__module_aaef04e7344731f519aba25dbde1bfbc8}

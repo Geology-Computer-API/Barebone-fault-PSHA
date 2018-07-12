@@ -1,0 +1,82 @@
+site coordinate is     38.113  -122.114
+ 
+
+ VS30 found in input
+
+ Z10 found in input
+
+ Z25 found in input
+
+ fault_trace found
+ number of fault trace points =            2
+ 
+
+ scaling model found in input
+
+ style of faulting found in input
+
+ dip angle found in input
+
+ seismogenic_depth found in input
+
+ aspect ratio found in input
+
+ strike_dip_step found in input
+
+ depth ditribution found in input
+
+ depth_param found in input
+
+ recurrence relation found
+
+ recurrence relation is CHAR                                                                                                                              
+ slip rate found
+
+ b-value found
+
+ mag_step found in input
+
+ magnitude range found in input
+
+ gmpe_name found in input
+
+ gmpe_params found in input
+
+ number of gmpe parameters =            0
+ 
+
+ gmpe_opts found in input
+
+ number of gmpe options =            0
+ 
+
+ aleatory ditribution found in input
+
+ trunc_level found in input
+
+ unit found in input 
+
+ FREQUENCY found
+ number of frequency points =            2
+ 
+
+ INTENSITY found
+
+ number of intensity points =           18
+ 
+
+ mag_bin found in input
+
+ number of mag bins =            8
+ 
+
+ dist_bin found in input
+
+ number of dist bins =            8
+ 
+
+ eps_bin found in input
+
+ number of eps bins =            1
+ 
+
