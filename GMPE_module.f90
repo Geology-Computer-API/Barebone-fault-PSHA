@@ -11,7 +11,7 @@ contains
             lnSa, Sigma)
 
         integer :: m_gmpe_name, m_sof
-        real(8) :: Mw, Rrup, Rjb, Rx, Ztor, Tin, vs30, z10, dip
+        real(8) :: Mw, Rrup, Rjb, Rx, Ztor, dip, Tin, vs30, z10
         real(8) :: lnSa, Sigma
         real(8), allocatable :: gmpe_params(:)
         integer, allocatable :: gmpe_opts(:)
