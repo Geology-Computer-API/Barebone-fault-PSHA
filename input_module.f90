@@ -42,7 +42,7 @@ module input_module
 
     integer :: m_SOF, m_SCALING, m_REC_RELATION, m_UNIT
     integer :: m_SIGMA_TRUNC, m_GMPE_Name, m_DEPTH_distribution
-    integer :: m_aleatory_distribution
+    integer :: m_aleatory_distribution, m_WRT_RUP
 
     integer :: n_freq, n_inten, n_mag_bin, n_dist_bin, n_eps_bin
     integer :: flt_n_corner, flt_n_seg
@@ -177,6 +177,8 @@ contains
                 else if (index(line, 'GMPE_OPTS') .eq. 1) then
                     call read_gmpe_opts()
 
+                else if (index(line, 'WRT_RUP') .eq. 1) then
+                    call read_wrt_rup()
 
                 end if
 
@@ -313,6 +315,19 @@ contains
             stop
         end if
     end subroutine read_unit
+
+    subroutine read_wrt_rup()
+        write(fp_log,*) 'wrt_rup found in input '//new_line('a')
+        read(fp_inp,*) str_tmp
+        if(str_tmp .eq. 'NO') then
+            m_wrt_rup = FALSE
+        else if (str_tmp .eq. 'YES') then
+            m_wrt_rup = TRUE
+        else
+            write(fp_log,*) 'wrong input in wrt_rup'
+            stop
+        end if
+    end subroutine read_wrt_rup
 
 
     subroutine read_aleatory_distribution()

@@ -56,8 +56,6 @@ program flt_haz
 
                 call locate(i_dist_bin, dist_bin,  Rrup)
 
-
-
                 do i_freq = 1, n_freq
                     Tin = 1.0d0 / frequency(i_freq)
 
@@ -82,7 +80,7 @@ program flt_haz
                     end do ! end n_inten
                 end do ! end n_freq
 
-                write(fp_rup,'(1x,f10.4, 3f8.2, f10.4)') Mw, Rrup, Rjb, Rx, exp(lnSa)
+                if (m_wrt_rup .eq. True) write(fp_rup,'(1x,f10.4, 3f8.2, f10.4)') Mw, Rrup, Rjb, Rx, exp(lnSa)
             end do ! end n_locD, loop down dip
         end do ! end n_locS, loop along strike
     end do ! end n_mag, loop for magnitude step

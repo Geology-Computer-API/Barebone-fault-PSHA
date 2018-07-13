@@ -89,6 +89,9 @@ TRUNC_LEVEL (this is only used for TRUNC_NORMAL
 
 [Control]
 
+WRT_RUP
+YES
+
 UNIT
 DEG
 

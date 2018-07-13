@@ -91,9 +91,9 @@ contains
         lnSa = (lny);
 
         if (m_SOF .eq. 2) then
-		    lnSa = lnSa + log(1.2)
+            lnSa = lnSa + log(1.2)
         end if
-		
+
         if (M < 7.21) then
             Sigma = C8 - 0.14 * M
         else

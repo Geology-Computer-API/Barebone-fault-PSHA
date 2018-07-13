@@ -15,5 +15,6 @@ module const_module
     integer, parameter :: SADIGH97 = 1, CY14 = 2 ! gmpe
     integer, parameter :: UNIFORM = 1, TRIANGULAR = 2 ! depth distribution
     integer, parameter :: NORMAL = 1, TRUNC_NORMAL = 2, HEAVISIDE = 3 ! aleatory distribution
+    integer, parameter :: FALSE = 0, TRUE = 1
 
 end module const_module
