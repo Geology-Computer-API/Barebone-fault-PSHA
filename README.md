@@ -14,7 +14,7 @@ The purpose of this project is to develop an open source barebone probabilistic 
   + It has modular coding structure for easy extension.
   + It is built on many existing works. These works are cited in the comments in source code.
   + It uses keyword driven free format input.
-  + A relatively generic ground motion prediction equation (GMPE) interface is signed for easy plugin of new GMPEs. Only two GMPEs (Sadigh et al. (1997) and Chiou & Youngs (2014)) are currently available.
+  + A relatively generic ground motion prediction equation (GMPE) interface is designed for easy plugin of new GMPEs. Only two GMPEs (Sadigh et al. (1997) and Chiou & Youngs (2014)) are currently available.
 
 # References
 
