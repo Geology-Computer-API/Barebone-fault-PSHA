@@ -3,13 +3,12 @@
 The purpose of this project is to develop an open source barebone probabilistic seismic hazard analysis (PSHA) code for fault sources. Some facts of code are listed as follows. 
 
   +	It follows the classical formulation of PSHA as described in McGuire (1995) and Pagani et al. (2014)
-  +	Stirling approach is adopted for a dipping fault which bends along strike.
-  +	For a bending rupture, Rx is taken as the one for the rupture segment with minimum Rrup (closest distance to the rupture plane)
   +	Fault or rupture geometry convention follows Stein and Wysession(2009)
+  +	Stirling approach is adopted for a dipping fault which bends along strike.
+  + Strike direction is defined as first point toward ending point in the surface trace.
   +	Distance conversion is based on geometries of hypothetic ruptures.
-  + Strike direction is defined as first point toward ending point in the surface trace
+  +	For a bending rupture, Rx is taken as the one for the rupture segment with minimum Rrup (closest distance to the rupture plane)
   + It is working with some of the test cases in the PEER PSHA code verification project
-
   + It is developed under Windows 7 using free IDE of Code::Blocks and free compiler of GNU Fortran distributed with MSYS2. 
   + It has modular coding structure for easy extension.
   + It is built on many existing works. These works are cited in the comments in source code.
